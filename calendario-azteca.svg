@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">Calendario Azteca</title>
+  <desc id="desc">Diagrama del calendario azteca con ciclos rituales y agrícolas conectados con la idea del Fuego Nuevo.</desc>
+  <defs>
+    <filter id="grunge" x="-10%" y="-10%" width="120%" height="120%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" seed="7" result="noise"/>
+      <feColorMatrix in="noise" type="saturate" values="0" result="mono"/>
+      <feComponentTransfer in="mono" result="grain">
+        <feFuncA type="table" tableValues="0 0.18"/>
+      </feComponentTransfer>
+      <feBlend in="SourceGraphic" in2="grain" mode="multiply"/>
+    </filter>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#f1f1f1"/>
+      <stop offset="100%" stop-color="#dedede"/>
+    </linearGradient>
+    <filter id="roughStroke">
+      <feTurbulence type="fractalNoise" baseFrequency="0.6" numOctaves="2" seed="13" result="noise"/>
+      <feDisplacementMap in="SourceGraphic" in2="noise" scale="1.2" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+    <style>
+      .title { font: 700 40px 'DejaVu Sans', Arial, sans-serif; fill: #171717; }
+      .label { font: 700 20px 'DejaVu Sans', Arial, sans-serif; fill: #171717; }
+      .small { font: 600 16px 'DejaVu Sans', Arial, sans-serif; fill: #2b2b2b; }
+      .tag { font: 700 18px 'DejaVu Sans', Arial, sans-serif; fill: #f4f1ee; }
+      .boxed { fill: #efefef; stroke: #1c1c1c; stroke-width: 4; }
+      .accent { fill: #d95d2e; stroke: #1c1c1c; stroke-width: 4; }
+      .dark { fill: #2a2a2a; stroke: #1c1c1c; stroke-width: 4; }
+      .line { stroke: #b62d1f; stroke-width: 5; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+      .line2 { stroke: #d95d2e; stroke-width: 4; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+    </style>
+  </defs>
+
+  <rect width="1200" height="800" fill="url(#bg)"/>
+  <g filter="url(#grunge)">
+    <circle cx="600" cy="400" r="178" class="dark"/>
+    <circle cx="600" cy="400" r="154" fill="none" stroke="#d95d2e" stroke-width="8"/>
+    <circle cx="600" cy="400" r="126" fill="none" stroke="#b62d1f" stroke-width="3" stroke-dasharray="10 12"/>
+
+    <text x="600" y="245" text-anchor="middle" class="title">Calendario Azteca</text>
+    <text x="600" y="430" text-anchor="middle" class="label">Ciclo de tiempo sagrado</text>
+
+    <g>
+      <rect x="110" y="210" width="250" height="180" rx="18" class="boxed"/>
+      <text x="235" y="250" text-anchor="middle" class="label">Tonalpohualli</text>
+      <text x="235" y="290" text-anchor="middle" class="small">260 días</text>
+      <text x="235" y="324" text-anchor="middle" class="small">20 signos</text>
+      <text x="235" y="356" text-anchor="middle" class="small">+ 13 numerales</text>
+    </g>
+
+    <g>
+      <rect x="840" y="210" width="250" height="180" rx="18" class="boxed"/>
+      <text x="965" y="250" text-anchor="middle" class="label">Xiuhpohualli</text>
+      <text x="965" y="290" text-anchor="middle" class="small">365 días</text>
+      <text x="965" y="324" text-anchor="middle" class="small">18 meses</text>
+      <text x="965" y="356" text-anchor="middle" class="small">+ 5 nemontemi</text>
+    </g>
+
+    <g>
+      <rect x="420" y="520" width="360" height="130" rx="18" class="accent"/>
+      <text x="600" y="560" text-anchor="middle" class="tag">Fuego Nuevo</text>
+      <text x="600" y="600" text-anchor="middle" class="small" fill="#fffaf7">52 años / ciclo de renovación</text>
+    </g>
+
+    <path d="M 360 400 L 200 400" class="line"/>
+    <path d="M 840 400 L 1000 400" class="line"/>
+    <path d="M 600 577 L 600 690" class="line2"/>
+    <path d="M 515 520 L 520 455" class="line2"/>
+    <path d="M 685 520 L 680 455" class="line2"/>
+
+    <g>
+      <circle cx="600" cy="400" r="32" fill="#d95d2e" stroke="#1c1c1c" stroke-width="4"/>
+      <text x="600" y="408" text-anchor="middle" class="small" fill="#f4f1ee">A</text>
+    </g>
+
+    <g>
+      <path d="M 600 694 L 600 740" class="line2"/>
+      <path d="M 540 740 L 660 740" class="line2"/>
+      <text x="600" y="760" text-anchor="middle" class="small">sincronía entre ritual y agricultura</text>
+    </g>
+
+    <g filter="url(#roughStroke)">
+      <path d="M 190 150 L 230 170 L 215 210 L 170 200 Z" fill="#b62d1f" opacity="0.8"/>
+      <path d="M 1010 150 L 970 170 L 985 210 L 1030 200 Z" fill="#d95d2e" opacity="0.8"/>
+      <path d="M 1015 605 L 980 630 L 1002 670 L 1045 650 Z" fill="#a3382d" opacity="0.8"/>
+      <path d="M 185 605 L 220 630 L 198 670 L 155 650 Z" fill="#d95d2e" opacity="0.7"/>
+    </g>
+  </g>
+</svg>

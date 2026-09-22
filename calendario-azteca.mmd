@@ -1,0 +1,24 @@
+flowchart LR
+    A[Calendario Azteca] --> B[Tonalpohualli
+    260 días
+    20 signos + 13 numerales]
+    A --> C[Xiuhpohualli
+    365 días
+    18 meses + 5 nemontemi]
+    A --> D[Fuego Nuevo
+    52 años
+    renovación cíclica]
+
+    B --> E[Ritual]
+    C --> F[Agrícola]
+    D --> G[Sincronía del tiempo]
+    E --> G
+    F --> G
+
+    classDef base fill:#efefef,stroke:#1c1c1c,stroke-width:3px,color:#171717;
+    classDef accent fill:#d95d2e,stroke:#1c1c1c,stroke-width:3px,color:#f4f1ee;
+    classDef dark fill:#2a2a2a,stroke:#1c1c1c,stroke-width:3px,color:#f4f1ee;
+
+    class A dark;
+    class B,C,D base;
+    class E,F,G accent;
