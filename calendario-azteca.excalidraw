@@ -1,7 +1,7 @@
 {
   "type": "excalidraw",
   "version": 2,
-  "source": "https://excalidraw.com",
+  "source": "https://marketplace.visualstudio.com/items?itemName=pomdtr.excalidraw-editor",
   "elements": [
     {
       "id": "title",
@@ -18,11 +18,11 @@
       "roughness": 2,
       "opacity": 100,
       "seed": 1,
-      "version": 1,
-      "versionNonce": 1,
+      "version": 2,
+      "versionNonce": 2033551280,
       "isDeleted": false,
-      "boundElements": null,
-      "updated": 0,
+      "boundElements": [],
+      "updated": 1790086952292,
       "link": null,
       "locked": false,
       "text": "Calendario Azteca",
@@ -32,7 +32,14 @@
       "verticalAlign": "top",
       "baseline": 31,
       "lineHeight": 1.25,
-      "rawText": "Calendario Azteca"
+      "index": "a0",
+      "strokeStyle": "solid",
+      "groupIds": [],
+      "frameId": null,
+      "roundness": null,
+      "containerId": null,
+      "originalText": "Calendario Azteca",
+      "autoResize": true
     },
     {
       "id": "circle-main",
@@ -49,13 +56,18 @@
       "roughness": 2,
       "opacity": 100,
       "seed": 2,
-      "version": 1,
-      "versionNonce": 2,
+      "version": 18,
+      "versionNonce": 660610992,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 0,
+      "updated": 1790086959786,
       "link": null,
-      "locked": false
+      "locked": false,
+      "index": "a1",
+      "strokeStyle": "solid",
+      "groupIds": [],
+      "frameId": null,
+      "roundness": null
     },
     {
       "id": "center-dot",
@@ -72,13 +84,18 @@
       "roughness": 2,
       "opacity": 100,
       "seed": 3,
-      "version": 1,
-      "versionNonce": 3,
+      "version": 2,
+      "versionNonce": 1653150128,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 0,
+      "updated": 1790086952293,
       "link": null,
-      "locked": false
+      "locked": false,
+      "index": "a2",
+      "strokeStyle": "solid",
+      "groupIds": [],
+      "frameId": null,
+      "roundness": null
     },
     {
       "id": "center-label",
@@ -95,11 +112,11 @@
       "roughness": 1,
       "opacity": 100,
       "seed": 4,
-      "version": 1,
-      "versionNonce": 4,
+      "version": 2,
+      "versionNonce": 864952656,
       "isDeleted": false,
-      "boundElements": null,
-      "updated": 0,
+      "boundElements": [],
+      "updated": 1790086952293,
       "link": null,
       "locked": false,
       "text": "A",
@@ -109,7 +126,14 @@
       "verticalAlign": "top",
       "baseline": 19,
       "lineHeight": 1.25,
-      "rawText": "A"
+      "index": "a3",
+      "strokeStyle": "solid",
+      "groupIds": [],
+      "frameId": null,
+      "roundness": null,
+      "containerId": null,
+      "originalText": "A",
+      "autoResize": true
     },
     {
       "id": "box-left",
@@ -126,13 +150,18 @@
       "roughness": 2,
       "opacity": 100,
       "seed": 5,
-      "version": 1,
-      "versionNonce": 5,
+      "version": 2,
+      "versionNonce": 752573360,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 0,
+      "updated": 1790086952293,
       "link": null,
-      "locked": false
+      "locked": false,
+      "index": "a4",
+      "strokeStyle": "solid",
+      "groupIds": [],
+      "frameId": null,
+      "roundness": null
     },
     {
       "id": "left-title",
@@ -149,11 +178,11 @@
       "roughness": 1,
       "opacity": 100,
       "seed": 6,
-      "version": 1,
-      "versionNonce": 6,
+      "version": 2,
+      "versionNonce": 635270992,
       "isDeleted": false,
-      "boundElements": null,
-      "updated": 0,
+      "boundElements": [],
+      "updated": 1790086952293,
       "link": null,
       "locked": false,
       "text": "Tonalpohualli",
@@ -163,7 +192,14 @@
       "verticalAlign": "top",
       "baseline": 21,
       "lineHeight": 1.25,
-      "rawText": "Tonalpohualli"
+      "index": "a5",
+      "strokeStyle": "solid",
+      "groupIds": [],
+      "frameId": null,
+      "roundness": null,
+      "containerId": null,
+      "originalText": "Tonalpohualli",
+      "autoResize": true
     },
     {
       "id": "left-meta",
@@ -180,11 +216,11 @@
       "roughness": 1,
       "opacity": 100,
       "seed": 7,
-      "version": 1,
-      "versionNonce": 7,
+      "version": 2,
+      "versionNonce": 1247045040,
       "isDeleted": false,
-      "boundElements": null,
-      "updated": 0,
+      "boundElements": [],
+      "updated": 1790086952293,
       "link": null,
       "locked": false,
       "text": "260 días\n20 signos\n+ 13 numerales",
@@ -194,7 +230,14 @@
       "verticalAlign": "top",
       "baseline": 17,
       "lineHeight": 1.25,
-      "rawText": "260 días\n20 signos\n+ 13 numerales"
+      "index": "a6",
+      "strokeStyle": "solid",
+      "groupIds": [],
+      "frameId": null,
+      "roundness": null,
+      "containerId": null,
+      "originalText": "260 días\n20 signos\n+ 13 numerales",
+      "autoResize": true
     },
     {
       "id": "box-right",
@@ -211,13 +254,18 @@
       "roughness": 2,
       "opacity": 100,
       "seed": 8,
-      "version": 1,
-      "versionNonce": 8,
+      "version": 2,
+      "versionNonce": 2144472400,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 0,
+      "updated": 1790086952293,
       "link": null,
-      "locked": false
+      "locked": false,
+      "index": "a7",
+      "strokeStyle": "solid",
+      "groupIds": [],
+      "frameId": null,
+      "roundness": null
     },
     {
       "id": "right-title",
@@ -234,11 +282,11 @@
       "roughness": 1,
       "opacity": 100,
       "seed": 9,
-      "version": 1,
-      "versionNonce": 9,
+      "version": 2,
+      "versionNonce": 672935856,
       "isDeleted": false,
-      "boundElements": null,
-      "updated": 0,
+      "boundElements": [],
+      "updated": 1790086952293,
       "link": null,
       "locked": false,
       "text": "Xiuhpohualli",
@@ -248,7 +296,14 @@
       "verticalAlign": "top",
       "baseline": 21,
       "lineHeight": 1.25,
-      "rawText": "Xiuhpohualli"
+      "index": "a8",
+      "strokeStyle": "solid",
+      "groupIds": [],
+      "frameId": null,
+      "roundness": null,
+      "containerId": null,
+      "originalText": "Xiuhpohualli",
+      "autoResize": true
     },
     {
       "id": "right-meta",
@@ -265,11 +320,11 @@
       "roughness": 1,
       "opacity": 100,
       "seed": 10,
-      "version": 1,
-      "versionNonce": 10,
+      "version": 2,
+      "versionNonce": 449045328,
       "isDeleted": false,
-      "boundElements": null,
-      "updated": 0,
+      "boundElements": [],
+      "updated": 1790086952293,
       "link": null,
       "locked": false,
       "text": "365 días\n18 meses\n+ 5 nemontemi",
@@ -279,7 +334,14 @@
       "verticalAlign": "top",
       "baseline": 17,
       "lineHeight": 1.25,
-      "rawText": "365 días\n18 meses\n+ 5 nemontemi"
+      "index": "a9",
+      "strokeStyle": "solid",
+      "groupIds": [],
+      "frameId": null,
+      "roundness": null,
+      "containerId": null,
+      "originalText": "365 días\n18 meses\n+ 5 nemontemi",
+      "autoResize": true
     },
     {
       "id": "box-bottom",
@@ -296,13 +358,18 @@
       "roughness": 2,
       "opacity": 100,
       "seed": 11,
-      "version": 1,
-      "versionNonce": 11,
+      "version": 2,
+      "versionNonce": 1314568624,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 0,
+      "updated": 1790086952293,
       "link": null,
-      "locked": false
+      "locked": false,
+      "index": "aA",
+      "strokeStyle": "solid",
+      "groupIds": [],
+      "frameId": null,
+      "roundness": null
     },
     {
       "id": "bottom-title",
@@ -319,11 +386,11 @@
       "roughness": 1,
       "opacity": 100,
       "seed": 12,
-      "version": 1,
-      "versionNonce": 12,
+      "version": 2,
+      "versionNonce": 1695218000,
       "isDeleted": false,
-      "boundElements": null,
-      "updated": 0,
+      "boundElements": [],
+      "updated": 1790086952293,
       "link": null,
       "locked": false,
       "text": "Fuego Nuevo",
@@ -333,7 +400,14 @@
       "verticalAlign": "top",
       "baseline": 21,
       "lineHeight": 1.25,
-      "rawText": "Fuego Nuevo"
+      "index": "aB",
+      "strokeStyle": "solid",
+      "groupIds": [],
+      "frameId": null,
+      "roundness": null,
+      "containerId": null,
+      "originalText": "Fuego Nuevo",
+      "autoResize": true
     },
     {
       "id": "bottom-sub",
@@ -350,11 +424,11 @@
       "roughness": 1,
       "opacity": 100,
       "seed": 13,
-      "version": 1,
-      "versionNonce": 13,
+      "version": 2,
+      "versionNonce": 3670960,
       "isDeleted": false,
-      "boundElements": null,
-      "updated": 0,
+      "boundElements": [],
+      "updated": 1790086952293,
       "link": null,
       "locked": false,
       "text": "52 años / renovación",
@@ -364,7 +438,14 @@
       "verticalAlign": "top",
       "baseline": 17,
       "lineHeight": 1.25,
-      "rawText": "52 años / renovación"
+      "index": "aC",
+      "strokeStyle": "solid",
+      "groupIds": [],
+      "frameId": null,
+      "roundness": null,
+      "containerId": null,
+      "originalText": "52 años / renovación",
+      "autoResize": true
     },
     {
       "id": "line-left",
@@ -381,19 +462,33 @@
       "roughness": 2,
       "opacity": 100,
       "seed": 14,
-      "version": 1,
-      "versionNonce": 14,
+      "version": 2,
+      "versionNonce": 1107251024,
       "isDeleted": false,
-      "boundElements": null,
-      "updated": 0,
+      "boundElements": [],
+      "updated": 1790086952293,
       "link": null,
       "locked": false,
-      "points": [[0,0],[90,0]],
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          90,
+          0
+        ]
+      ],
       "lastCommittedPoint": null,
       "startBinding": null,
       "endBinding": null,
       "startArrowhead": null,
-      "endArrowhead": "arrow"
+      "endArrowhead": "arrow",
+      "index": "aD",
+      "strokeStyle": "solid",
+      "groupIds": [],
+      "frameId": null,
+      "roundness": null
     },
     {
       "id": "line-right",
@@ -410,19 +505,33 @@
       "roughness": 2,
       "opacity": 100,
       "seed": 15,
-      "version": 1,
-      "versionNonce": 15,
+      "version": 2,
+      "versionNonce": 1541148080,
       "isDeleted": false,
-      "boundElements": null,
-      "updated": 0,
+      "boundElements": [],
+      "updated": 1790086952293,
       "link": null,
       "locked": false,
-      "points": [[0,0],[90,0]],
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          90,
+          0
+        ]
+      ],
       "lastCommittedPoint": null,
       "startBinding": null,
       "endBinding": null,
       "startArrowhead": null,
-      "endArrowhead": "arrow"
+      "endArrowhead": "arrow",
+      "index": "aE",
+      "strokeStyle": "solid",
+      "groupIds": [],
+      "frameId": null,
+      "roundness": null
     },
     {
       "id": "line-bottom",
@@ -439,19 +548,33 @@
       "roughness": 2,
       "opacity": 100,
       "seed": 16,
-      "version": 1,
-      "versionNonce": 16,
+      "version": 2,
+      "versionNonce": 1777919312,
       "isDeleted": false,
-      "boundElements": null,
-      "updated": 0,
+      "boundElements": [],
+      "updated": 1790086952293,
       "link": null,
       "locked": false,
-      "points": [[0,0],[0,80]],
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          80
+        ]
+      ],
       "lastCommittedPoint": null,
       "startBinding": null,
       "endBinding": null,
       "startArrowhead": null,
-      "endArrowhead": null
+      "endArrowhead": null,
+      "index": "aF",
+      "strokeStyle": "solid",
+      "groupIds": [],
+      "frameId": null,
+      "roundness": null
     },
     {
       "id": "diag-1",
@@ -468,19 +591,33 @@
       "roughness": 2,
       "opacity": 100,
       "seed": 17,
-      "version": 1,
-      "versionNonce": 17,
+      "version": 2,
+      "versionNonce": 2054084528,
       "isDeleted": false,
-      "boundElements": null,
-      "updated": 0,
+      "boundElements": [],
+      "updated": 1790086952293,
       "link": null,
       "locked": false,
-      "points": [[0,0],[0,60]],
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          60
+        ]
+      ],
       "lastCommittedPoint": null,
       "startBinding": null,
       "endBinding": null,
       "startArrowhead": null,
-      "endArrowhead": null
+      "endArrowhead": null,
+      "index": "aG",
+      "strokeStyle": "solid",
+      "groupIds": [],
+      "frameId": null,
+      "roundness": null
     },
     {
       "id": "diag-2",
@@ -497,19 +634,33 @@
       "roughness": 2,
       "opacity": 100,
       "seed": 18,
-      "version": 1,
-      "versionNonce": 18,
+      "version": 2,
+      "versionNonce": 1246739280,
       "isDeleted": false,
-      "boundElements": null,
-      "updated": 0,
+      "boundElements": [],
+      "updated": 1790086952293,
       "link": null,
       "locked": false,
-      "points": [[0,0],[0,60]],
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          60
+        ]
+      ],
       "lastCommittedPoint": null,
       "startBinding": null,
       "endBinding": null,
       "startArrowhead": null,
-      "endArrowhead": null
+      "endArrowhead": null,
+      "index": "aH",
+      "strokeStyle": "solid",
+      "groupIds": [],
+      "frameId": null,
+      "roundness": null
     },
     {
       "id": "bottom-note",
@@ -526,11 +677,11 @@
       "roughness": 1,
       "opacity": 100,
       "seed": 19,
-      "version": 1,
-      "versionNonce": 19,
+      "version": 2,
+      "versionNonce": 270033328,
       "isDeleted": false,
-      "boundElements": null,
-      "updated": 0,
+      "boundElements": [],
+      "updated": 1790086952293,
       "link": null,
       "locked": false,
       "text": "sincronía entre ritual y agricultura",
@@ -540,13 +691,21 @@
       "verticalAlign": "top",
       "baseline": 17,
       "lineHeight": 1.25,
-      "rawText": "sincronía entre ritual y agricultura"
+      "index": "aI",
+      "strokeStyle": "solid",
+      "groupIds": [],
+      "frameId": null,
+      "roundness": null,
+      "containerId": null,
+      "originalText": "sincronía entre ritual y agricultura",
+      "autoResize": true
     }
   ],
   "appState": {
     "gridSize": 20,
-    "viewBackgroundColor": "#f5f5f5",
-    "zoom": 1
+    "gridStep": 5,
+    "gridModeEnabled": false,
+    "viewBackgroundColor": "#f5f5f5"
   },
   "files": {}
 }
