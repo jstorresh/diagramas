@@ -1,8 +1,13 @@
 # Calendario mexica
 
 Video animado vertical sobre las dos cuentas calendáricas y la ceremonia del
-Fuego Nuevo, sincronizado con la locución de `docs/locucion.mp3`. Composición:
-1080 × 1920 (9:16), 30 fps y aproximadamente 66 segundos.
+Fuego Nuevo, sincronizado con la locución de `docs/locucion.mp3`. Las dos
+composiciones son de 1080 × 1920 (9:16), 30 fps y aproximadamente 66 segundos.
+
+## Videos renderizados
+
+- [Ver video estándar](out/arte-del-tiempo-azteca-vertical.mp4)
+- [Ver video Vaporwave](out/calendario-azteca-vaporwave.mp4)
 
 ## Escenas
 
@@ -25,10 +30,11 @@ Abrir Remotion Studio:
 npm run dev
 ```
 
-Exportar el video:
+Exportar ambos videos:
 
 ```sh
 npx remotion render CalendarioAzteca out/arte-del-tiempo-azteca-vertical.mp4
+npx remotion render CalendarioAztecaVaporwave out/calendario-azteca-vaporwave.mp4
 ```
 
 Las cuatro escenas también están registradas por separado en Studio.

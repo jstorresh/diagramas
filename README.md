@@ -28,14 +28,17 @@ Recorre la introducción, el Tonalpohualli, el Xiuhpohualli y el Fuego Nuevo.
 Remotion registra la composición estándar `CalendarioAzteca` y una variante
 `CalendarioAztecaVaporwave`, además de composiciones para previsualizar escenas.
 
-Hay un render local en
-`calendario-video/out/arte-del-tiempo-azteca-vertical.mp4`; la carpeta `out/`
-está excluida de Git. Para volver a generarlo, ejecuta desde
-`calendario-video/`:
+Los dos videos renderizados están disponibles para reproducir:
+
+- [Video estándar](calendario-video/out/arte-del-tiempo-azteca-vertical.mp4)
+- [Video Vaporwave](calendario-video/out/calendario-azteca-vaporwave.mp4)
+
+Para volver a generarlos, ejecuta desde `calendario-video/`:
 
 ```sh
 npm install
 npx remotion render CalendarioAzteca out/arte-del-tiempo-azteca-vertical.mp4
+npx remotion render CalendarioAztecaVaporwave out/calendario-azteca-vaporwave.mp4
 ```
 
 Para abrir Remotion Studio o validar el código:
