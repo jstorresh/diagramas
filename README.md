@@ -1,33 +1,55 @@
-# Diagramas del calendario
+# Calendario mexica
 
-Proyecto dedicado a la creación de tres diagramas explicativos sobre el calendario azteca. Cada diagrama presenta la información con un enfoque visual equivalente, pero en un formato diferente para facilitar su consulta, edición y reutilización.
+Proyecto sobre las cuentas del calendario mexica, compuesto por un diagrama en
+tres formatos equivalentes y un video animado vertical hecho con Remotion.
 
-## Formatos
+## Diagrama
 
-- **SVG:** diagrama vectorial que puede visualizarse directamente en un navegador y conservar su calidad al cambiar de tamaño.
-- **Excalidraw:** versión editable para trabajar visualmente sobre la composición y colaborar en futuras modificaciones.
-- **Mermaid:** representación basada en texto que permite mantener el diagrama como código y renderizarlo en herramientas compatibles con Mermaid.
+Las tres representaciones cubren el Tonalpohualli (260 días), el Xiuhpohualli
+(365 días) y el ciclo de Fuego Nuevo (52 años). Si se modifica el contenido,
+mantener la información esencial sincronizada en los tres archivos:
 
-## Objetivo
+- [`calendario-azteca.svg`](calendario-azteca.svg): versión vectorial para ver
+  en navegador y escalar sin perder calidad.
+- [`calendario-azteca.excalidraw`](calendario-azteca.excalidraw): versión
+  editable en Excalidraw.
+- [`calendario-azteca.mmd`](calendario-azteca.mmd): versión Mermaid, editable
+  como texto y renderizable en herramientas compatibles.
 
-Explicar de forma clara la estructura y la relación entre los principales elementos del calendario azteca, utilizando diagramas que sean fáciles de leer, modificar y compartir.
+El estilo obligatorio de los diagramas es Grunge, con una paleta basada en
+negro, gris, naranja y rojo. No sustituir estos formatos ni usar generadores de
+imágenes para crear diagramas o recursos.
 
-## Contenido previsto
+## Video
 
-El proyecto incluirá una representación del calendario azteca en los siguientes archivos:
+La aplicación de [`calendario-video/`](calendario-video/) contiene un video
+vertical de 1080 × 1920, a 30 fps y 66 segundos, sincronizado con la locución.
+Recorre la introducción, el Tonalpohualli, el Xiuhpohualli y el Fuego Nuevo.
+Remotion registra la composición estándar `CalendarioAzteca` y una variante
+`CalendarioAztecaVaporwave`, además de composiciones para previsualizar escenas.
 
-```text
-calendario-azteca.svg
-calendario-azteca.excalidraw
-calendario-azteca.mmd
+Hay un render local en
+`calendario-video/out/arte-del-tiempo-azteca-vertical.mp4`; la carpeta `out/`
+está excluida de Git. Para volver a generarlo, ejecuta desde
+`calendario-video/`:
+
+```sh
+npm install
+npx remotion render CalendarioAzteca out/arte-del-tiempo-azteca-vertical.mp4
 ```
 
-## Uso
+Para abrir Remotion Studio o validar el código:
 
-- Abre el archivo **SVG** en cualquier navegador web o visor de imágenes vectoriales.
-- Importa el archivo **Excalidraw** en [Excalidraw](https://excalidraw.com/) para editarlo.
-- Copia el contenido del archivo **Mermaid** en un editor compatible o en el [Live Editor de Mermaid](https://mermaid.live/).
+```sh
+npm run dev
+npm run lint
+```
 
-## Nota
+## Documentación
 
-Los tres archivos representan el mismo tema desde perspectivas complementarias: visual, editable y basada en código.
+- [`docs/guion.md`](docs/guion.md): guion narrativo y visual.
+- [`docs/estilo-vaporwave.md`](docs/estilo-vaporwave.md): referencia de estilo
+  aplicable únicamente cuando se solicite Vaporwave; no reemplaza las reglas
+  Grunge de los diagramas.
+- [`calendario-video/README.md`](calendario-video/README.md): detalles y
+  comandos de la aplicación de video.
