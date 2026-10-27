@@ -9,6 +9,12 @@ Las tres representaciones cubren el Tonalpohualli (260 días), el Xiuhpohualli
 (365 días) y el ciclo de Fuego Nuevo (52 años). Si se modifica el contenido,
 mantener la información esencial sincronizada en los tres archivos:
 
+![Fotografía de la Piedra del Sol, monolito mexica expuesto en el Museo Nacional de Antropología de Ciudad de México](https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Monolito_de_la_Piedra_del_Sol.jpg/960px-Monolito_de_la_Piedra_del_Sol.jpg)
+
+Fotografía de [El Comandante](https://commons.wikimedia.org/wiki/User:El_Comandante),
+vía [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Monolito_de_la_Piedra_del_Sol.jpg),
+bajo licencia [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/).
+
 - [`calendario-azteca.svg`](calendario-azteca.svg): versión vectorial para ver
   en navegador y escalar sin perder calidad.
 - [`calendario-azteca.excalidraw`](calendario-azteca.excalidraw): versión
@@ -19,6 +25,12 @@ mantener la información esencial sincronizada en los tres archivos:
 El estilo obligatorio de los diagramas es Grunge, con una paleta basada en
 negro, gris, naranja y rojo. No sustituir estos formatos ni usar generadores de
 imágenes para crear diagramas o recursos.
+
+## Inspiración
+
+Este proyecto se inspiró en *100 Diagrams That Changed the World*, de Scott
+Christianson. El diagrama del calendario mexica disponible en los tres formatos
+anteriores es una creación original de este proyecto.
 
 ## Video
 
